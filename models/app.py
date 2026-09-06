@@ -19,8 +19,8 @@ st.set_page_config(
 # LOAD MODEL & THRESHOLD
 # ============================================================
 
-MODEL_PATH = "../models/logistic_regression_pipeline.pkl"
-THRESHOLD_PATH = "../models/logistic_regression_threshold.pkl"
+MODEL_PATH = "logistic_regression_pipeline.pkl"
+THRESHOLD_PATH = "logistic_regression_threshold.pkl"
 
 
 @st.cache_resource
